@@ -9,6 +9,7 @@ The method which we use for actual clustering is the k-means algorithm with the 
 
 We will compare Normalized Spectral Clustering results to those of the k-means++ Algorithm. Our results will be reflected in the Visualization Module.
 
+if you wish to run the code, skip to the 'How To Run' sub-title!
 
 ## Modules
 
@@ -55,6 +56,11 @@ The Visualization Module will  output a PDF file named clusters.pdf, containing
 the visualization and information on the clusters we have calculated.
 
 ## How To Run
-
+Random is set by default to true so if you wish to run with Random:
+Run from Terminal:
+   python -m invoke run -k -n
+otherwise, if you do not want Random to be true:
+Run from Terminal:
+   python -m invoke run -k -n --[no]-Random
 
  
