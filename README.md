@@ -45,7 +45,7 @@ and finally, output a visualization file comparing the resulting clusters of the
  and then send the new observations to the kmenas-pp module for running the kmeans algorithm.
  
 ### kmeans_pp
- The kmeans_pp module implements the k_means++ Algorithm for initializing optimal centroids.
+ The kmeans_pp module implements the k-means++ Algorithm for initializing optimal centroids.
  and send our data to the C modules to compute k_means in C, usung CAPI Python extensions.
 
 ### kmeans c
