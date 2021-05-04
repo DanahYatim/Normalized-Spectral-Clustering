@@ -58,7 +58,8 @@ the visualization and information on the clusters we have calculated.
 ## How To Run
 Random is set by default to true so if you wish to run with Random:
 Run from Terminal:
-   python3.8.5 -m invoke run -k [k] -n [n]
+   python3.8.5 -m invoke run -k [k] -n [n].
+   
 otherwise, if you do not want Random to be true:
 Run from Terminal:
    python3.8.5 -m invoke run -k [k] -n [n] [--[no-]Random]
